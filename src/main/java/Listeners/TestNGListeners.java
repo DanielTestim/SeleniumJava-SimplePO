@@ -14,17 +14,14 @@ public class TestNGListeners implements ITestListener {
 		this.driver = driver;
 	}
 	
-
 	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub		
 	}
    
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("Listener - Test Passed!" + result.getName());
 		driver.getCurrentUrl();
-		
-		
+			
 	}
 
 	public void onTestFailure(ITestResult result) {
