@@ -20,8 +20,7 @@ public class TestNGListeners implements ITestListener {
    
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("Listener - Test Passed!" + result.getName());
-		driver.getCurrentUrl();
-			
+		driver.getCurrentUrl();			
 	}
 
 	public void onTestFailure(ITestResult result) {
