@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
+<suite name="Suite from xml" parallel="false">
 <listeners>  
-<listener class-name="C:\Users\danie\eclipse-workspace\SeleniumJava\src\main\java\Listeners\TestNGListeners"/>  
+<listener class-name="Listeners.TestNGListeners"/>  
 </listeners>  
-  <test name="Test">
+  <test name="Test from xml">
     <classes>
       <class name="TestClass"/>
     </classes>
