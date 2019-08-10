@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>  
+<listener class-name="C:\Users\danie\eclipse-workspace\SeleniumJava\src\main\java\Listeners\TestNGListeners"/>  
+</listeners>  
+  <test name="Test">
+    <classes>
+      <class name="TestClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
