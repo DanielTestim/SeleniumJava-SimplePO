@@ -21,22 +21,18 @@ public class TestNGListeners implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {
 		System.out.println("Listener - onTestSkipped!" + " " + result.getName());
-
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		System.out.println("Listener - onTestFailedButWithinSuccessPercentage!" + " " +  result.getName());
-
 	}
 
 	public void onStart(ITestContext context) {
 		System.out.println("Listener - onStart!" + " " + context.getName());
-
 	}
 
 	public void onFinish(ITestContext context) {
-		System.out.println("Listener - onFinish!" + " " + context.getName());
-		
+		System.out.println("Listener - onFinish!" + " " + context.getName());	
 	}
 
 }

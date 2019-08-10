@@ -15,7 +15,7 @@ public class TestClass {
 	@Description("Verify home page title")
 	@Story("Test verify base page title")
 	@Test ()
-	public void test_02() throws InterruptedException {
+	public void Test_Case01() throws InterruptedException {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
