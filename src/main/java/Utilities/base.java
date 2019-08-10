@@ -3,6 +3,6 @@ package Utilities;
 import org.openqa.selenium.WebDriver;
 
 
-public class base {
+public class Base {
 	public static WebDriver driver;
 }

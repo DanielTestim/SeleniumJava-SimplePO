@@ -5,14 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import Utilities.base;
+import Utilities.Base;
 
-public class wikipediaMainPage extends base {
+public class WikipediaMainPage extends Base {
 	
 	public WebDriver driver;
 	
 	//Class Constructor
-	public wikipediaMainPage(WebDriver driver) {
+	public WikipediaMainPage(WebDriver driver) {
 		this.driver = driver;
 	}
 	
